@@ -9,7 +9,7 @@ module.exports = [
       content: '交互设计,龙爪槐守望者,这个控件叫什么,体验碎周报',
     },
   ],
-  ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证
+  //['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
   
   [
