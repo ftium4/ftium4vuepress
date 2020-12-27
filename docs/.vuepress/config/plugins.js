@@ -85,7 +85,8 @@ module.exports = [
         options: {
           el: '#valine-vuepress-comment',
           appId: 'sVUNwprzi9typJ0BDFUSodGr-gzGzoHsz',
-          appKey: 'Gc0evcbJMj9tHGsyArAlIIAi'
+          appKey: 'Gc0evcbJMj9tHGsyArAlIIAi',
+          path: '<%- frontmatter.commentid || frontmatter.permalink %>',
         }
 
 
