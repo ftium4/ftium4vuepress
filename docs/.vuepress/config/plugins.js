@@ -14,7 +14,7 @@ module.exports = [
     {
       thirdparty: [
         // 可选，默认 []
-        {
+       /* {
           title: '在MDN中搜索',
           frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
           behindUrl: '', // 搜索链接的后面部分，可选，默认 ''
@@ -30,7 +30,7 @@ module.exports = [
         {
           title: '在Bing中搜索',
           frontUrl: 'https://cn.bing.com/search?q=',
-        },
+        },*/
         {
           title: '通过百度搜索本站的',
           frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20',
@@ -75,12 +75,21 @@ module.exports = [
   [
     'vuepress-plugin-baidu-tongji', // 百度统计
     {
-      hm: '503f098e7e5b3a5b5d8c5fc2938af002',
+      hm: 'f2276d435dcebeabb0b4e850ea3b05ae',
     },
   ],
   [
     'vuepress-plugin-comment', // 评论
     {
+      choosen: 'valine', 
+        options: {
+          el: '#valine-vuepress-comment',
+          appId: 'sVUNwprzi9typJ0BDFUSodGr-gzGzoHsz',
+          appKey: 'Gc0evcbJMj9tHGsyArAlIIAi'
+        }
+
+
+      /*
       choosen: 'gitalk',
       options: {
         clientID: 'a6e1355287947096b88b',
@@ -95,7 +104,7 @@ module.exports = [
         labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
         body:
           '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
-      },
+      },*/
     },
   ],
   [

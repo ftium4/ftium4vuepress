@@ -23,7 +23,7 @@ module.exports = [
 
     ],
   },
-  { text: '关于我', link: '/about-me' },
+  { text: '关于我', link: '/about-me/' },
   {
     text: '索引',
     link: '/archives/',
